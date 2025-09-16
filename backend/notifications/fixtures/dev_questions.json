@@ -1,0 +1,74 @@
+[
+  {
+    "model": "assessments.question",
+    "pk": 11,
+    "fields": {
+      "focus_area": 7,
+      "text": "Has the organization established a business continuity management framework?",
+      "description": "This question assesses whether the organization has formally established a BCM framework",
+      "code": "FA07.01",
+      "guidance_notes": "Look for documented BCM policies, procedures, and organizational structure",
+      "weight": 1.0,
+      "order_index": 0,
+      "is_active": true,
+      "is_required": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 12,
+    "fields": {
+      "focus_area": 7,
+      "text": "Are BCM roles and responsibilities clearly defined and documented?",
+      "description": "This question evaluates the clarity of BCM roles and responsibilities",
+      "code": "FA07.02",
+      "guidance_notes": "Check for RACI matrices, job descriptions, and organizational charts",
+      "weight": 1.0,
+      "order_index": 1,
+      "is_active": true,
+      "is_required": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 13,
+    "fields": {
+      "focus_area": 8,
+      "text": "Is there organizational awareness and understanding of business continuity principles?",
+      "description": "This question assesses the level of BCM awareness across the organization",
+      "code": "FA08.01",
+      "guidance_notes": "Look for training programs, communication campaigns, and awareness metrics",
+      "weight": 1.0,
+      "order_index": 0,
+      "is_active": true,
+      "is_required": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 14,
+    "fields": {
+      "focus_area": 9,
+      "text": "Has the organization conducted a comprehensive business impact analysis?",
+      "description": "This question assesses the completeness of business impact analysis",
+      "code": "FA09.01",
+      "guidance_notes": "Check for BIA methodology, critical business functions identification, and impact assessments",
+      "weight": 1.0,
+      "order_index": 0,
+      "is_active": true,
+      "is_required": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  }
+]

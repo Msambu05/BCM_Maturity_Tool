@@ -1,0 +1,71 @@
+[
+  {
+    "model": "assessments.assessment",
+    "pk": 1,
+    "fields": {
+      "name": "Q1 2025 BCM Maturity Assessment",
+      "description": "First quarter business continuity maturity assessment for IT Department",
+      "reference_number": "ASS-2025-100",
+      "organization": 1,
+      "department": 1,
+      "assessment_period": "Q1 2025",
+      "start_date": "2025-01-01",
+      "due_date": "2025-03-31",
+      "status": "in_progress",
+      "created_by": 2,
+      "reviewer": 2,
+      "approver": 2,
+      "version": 1,
+      "is_template": false,
+      "notes": "Initial assessment for IT Department BCM capabilities",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "assessments.assessment",
+    "pk": 2,
+    "fields": {
+      "name": "Q1 2025 Operations BCM Assessment",
+      "description": "Business continuity assessment for Operations Department",
+      "reference_number": "ASS-2025-101",
+      "organization": 1,
+      "department": 2,
+      "assessment_period": "Q1 2025",
+      "start_date": "2025-01-01",
+      "due_date": "2025-03-31",
+      "status": "draft",
+      "created_by": 2,
+      "reviewer": 2,
+      "approver": 2,
+      "version": 1,
+      "is_template": false,
+      "notes": "Assessment for Operations Department BCM readiness",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "assessments.assessment",
+    "pk": 3,
+    "fields": {
+      "name": "Q1 2025 Finance BCM Assessment",
+      "description": "Business continuity maturity assessment for Finance Department at Global Enterprises",
+      "reference_number": "ASS-2025-102",
+      "organization": 2,
+      "department": 3,
+      "assessment_period": "Q1 2025",
+      "start_date": "2025-01-01",
+      "due_date": "2025-03-31",
+      "status": "draft",
+      "created_by": 4,
+      "reviewer": 4,
+      "approver": 4,
+      "version": 1,
+      "is_template": false,
+      "notes": "Cross-organization assessment for Finance Department",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]

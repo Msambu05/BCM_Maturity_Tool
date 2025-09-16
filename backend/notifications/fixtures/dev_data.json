@@ -1,0 +1,38 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$...",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "Sambulo",
+        "first_name": "System",
+        "last_name": "Administrator",
+        "email": "admin@bcmmap.local",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-01-01T00:00:00Z",
+        "role": "admin",
+        "phone_number": "+1234567890",
+        "organization": null,
+        "department": null
+    }
+},
+{
+    "model": "users.organization",
+    "pk": 1,
+    "fields": {
+        "name": "Development Corporation",
+        "code": "DEVCO",
+        "description": "Development and Testing Organization",
+        "address": "123 Dev Street, Debug City",
+        "contact_email": "dev@devco.local",
+        "contact_phone": "+1234567890",
+        "is_active": true,
+        "created_at": "2024-01-01T00:00:00Z",
+        "updated_at": "2024-01-01T00:00:00Z",
+        "created_by": 1
+    }
+}
+]

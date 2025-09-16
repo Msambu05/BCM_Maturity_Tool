@@ -1,0 +1,50 @@
+[
+  {
+    "model": "users.department",
+    "pk": 1,
+    "fields": {
+      "name": "IT Department",
+      "code": "IT",
+      "organization": 1,
+      "description": "Information Technology Department",
+      "manager_name": "Jane Smith",
+      "manager_email": "jane.smith@devco.local",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "users.department",
+    "pk": 2,
+    "fields": {
+      "name": "Operations Department",
+      "code": "OPS",
+      "organization": 1,
+      "description": "Operations and Business Continuity",
+      "manager_name": "Mike Johnson",
+      "manager_email": "mike.johnson@devco.local",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "users.department",
+    "pk": 3,
+    "fields": {
+      "name": "Finance Department",
+      "code": "FIN",
+      "organization": 2,
+      "description": "Financial Operations and Risk Management",
+      "manager_name": "Lisa Brown",
+      "manager_email": "lisa.brown@globalent.com",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "model": "assessments.focusarea",
+    "pk": 7,
+    "fields": {
+      "name": "establishing_bcms_dev",
+      "display_name": "Establishing a BCMS (Development)",
+      "code": "FA07",
+      "description": "Establishing the framework and foundation for a Business Continuity Management System",
+      "weight": 1.0,
+      "order_index": 0,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "assessments.focusarea",
+    "pk": 8,
+    "fields": {
+      "name": "embracing_bc_dev",
+      "display_name": "Embracing Business Continuity (Development)",
+      "code": "FA08",
+      "description": "Understanding and embracing business continuity principles and culture",
+      "weight": 1.0,
+      "order_index": 1,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "assessments.focusarea",
+    "pk": 9,
+    "fields": {
+      "name": "analysis_dev",
+      "display_name": "Analysis (Development)",
+      "code": "FA09",
+      "description": "Analyzing business impact, risks, and requirements",
+      "weight": 1.0,
+      "order_index": 2,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "created_by": 1
+    }
+  }
+]

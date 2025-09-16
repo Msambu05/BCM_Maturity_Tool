@@ -1,0 +1,107 @@
+[
+  {
+    "model": "scoring.maturityscore",
+    "pk": 1,
+    "fields": {
+      "assessment": 1,
+      "focus_area": 1,
+      "score": 4.0,
+      "level": 4,
+      "max_possible_score": 5.0,
+      "weighted_score": 4.0,
+      "question_count": 1,
+      "answered_count": 1,
+      "completion_percentage": 100.0,
+      "benchmark_score": null,
+      "benchmark_percentile": null,
+      "gap": null,
+      "calculated_at": "2025-01-16T10:00:00Z",
+      "is_current": true,
+      "version": 1
+    }
+  },
+  {
+    "model": "scoring.maturityscore",
+    "pk": 2,
+    "fields": {
+      "assessment": 1,
+      "focus_area": 2,
+      "score": 3.0,
+      "level": 3,
+      "max_possible_score": 5.0,
+      "weighted_score": 3.0,
+      "question_count": 1,
+      "answered_count": 1,
+      "completion_percentage": 100.0,
+      "benchmark_score": null,
+      "benchmark_percentile": null,
+      "gap": null,
+      "calculated_at": "2025-01-16T10:00:00Z",
+      "is_current": true,
+      "version": 1
+    }
+  },
+  {
+    "model": "scoring.maturityscore",
+    "pk": 3,
+    "fields": {
+      "assessment": 1,
+      "focus_area": 3,
+      "score": 4.0,
+      "level": 4,
+      "max_possible_score": 5.0,
+      "weighted_score": 4.0,
+      "question_count": 1,
+      "answered_count": 1,
+      "completion_percentage": 100.0,
+      "benchmark_score": null,
+      "benchmark_percentile": null,
+      "gap": null,
+      "calculated_at": "2025-01-16T10:00:00Z",
+      "is_current": true,
+      "version": 1
+    }
+  },
+  {
+    "model": "scoring.maturityscore",
+    "pk": 4,
+    "fields": {
+      "assessment": 1,
+      "focus_area": 4,
+      "score": 3.0,
+      "level": 3,
+      "max_possible_score": 5.0,
+      "weighted_score": 3.0,
+      "question_count": 1,
+      "answered_count": 1,
+      "completion_percentage": 100.0,
+      "benchmark_score": null,
+      "benchmark_percentile": null,
+      "gap": null,
+      "calculated_at": "2025-01-16T10:00:00Z",
+      "is_current": true,
+      "version": 1
+    }
+  },
+  {
+    "model": "scoring.maturityscore",
+    "pk": 5,
+    "fields": {
+      "assessment": 1,
+      "focus_area": null,
+      "score": 3.5,
+      "level": 3,
+      "max_possible_score": 5.0,
+      "weighted_score": 3.5,
+      "question_count": 4,
+      "answered_count": 4,
+      "completion_percentage": 100.0,
+      "benchmark_score": null,
+      "benchmark_percentile": null,
+      "gap": null,
+      "calculated_at": "2025-01-16T10:00:00Z",
+      "is_current": true,
+      "version": 1
+    }
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "model": "evidence.evidence",
+    "pk": 1,
+    "fields": {
+      "assessment": 1,
+      "question": 1,
+      "user": 5,
+      "title": "BCMS Policy Document",
+      "description": "Official Business Continuity Management System Policy",
+      "file": "evidence/2025/01/bcms_policy.pdf",
+      "file_name": "BCMS_Policy_2025.pdf",
+      "file_size": 245760,
+      "file_type": "application/pdf",
+      "is_approved": true,
+      "approved_at": "2025-01-16T09:00:00Z",
+      "approved_by": 2,
+      "uploaded_at": "2025-01-15T10:00:00Z",
+      "updated_at": "2025-01-16T09:00:00Z"
+    }
+  },
+  {
+    "model": "evidence.evidence",
+    "pk": 2,
+    "fields": {
+      "assessment": 1,
+      "question": 1,
+      "user": 5,
+      "title": "BCMS Testing Records",
+      "description": "Records of recent BCM testing exercises",
+      "file": "evidence/2025/01/testing_records.xlsx",
+      "file_name": "BCM_Testing_Records_Q4_2024.xlsx",
+      "file_size": 184320,
+      "file_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "is_approved": true,
+      "approved_at": "2025-01-16T09:15:00Z",
+      "approved_by": 2,
+      "uploaded_at": "2025-01-15T10:15:00Z",
+      "updated_at": "2025-01-16T09:15:00Z"
+    }
+  },
+  {
+    "model": "evidence.evidence",
+    "pk": 3,
+    "fields": {
+      "assessment": 1,
+      "question": 2,
+      "user": 5,
+      "title": "BC Awareness Training Materials",
+      "description": "Training materials used for BC awareness program",
+      "file": "evidence/2025/01/training_materials.pptx",
+      "file_name": "BC_Awareness_Training_2025.pptx",
+      "file_size": 5242880,
+      "file_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "is_approved": true,
+      "approved_at": "2025-01-16T09:30:00Z",
+      "approved_by": 2,
+      "uploaded_at": "2025-01-15T10:30:00Z",
+      "updated_at": "2025-01-16T09:30:00Z"
+    }
+  },
+  {
+    "model": "evidence.evidence",
+    "pk": 4,
+    "fields": {
+      "assessment": 1,
+      "question": 3,
+      "user": 5,
+      "title": "Business Impact Analysis Report",
+      "description": "Comprehensive BIA report for critical business processes",
+      "file": "evidence/2025/01/bia_report.pdf",
+      "file_name": "Business_Impact_Analysis_Report_2025.pdf",
+      "file_size": 1572864,
+      "file_type": "application/pdf",
+      "is_approved": true,
+      "approved_at": "2025-01-16T09:45:00Z",
+      "approved_by": 2,
+      "uploaded_at": "2025-01-15T11:00:00Z",
+      "updated_at": "2025-01-16T09:45:00Z"
+    }
+  },
+  {
+    "model": "evidence.evidence",
+    "pk": 5,
+    "fields": {
+      "assessment": 1,
+      "question": 3,
+      "user": 5,
+      "title": "Risk Assessment Matrix",
+      "description": "Risk assessment matrix for business continuity threats",
+      "file": "evidence/2025/01/risk_matrix.xlsx",
+      "file_name": "Risk_Assessment_Matrix_2025.xlsx",
+      "file_size": 98304,
+      "file_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "is_approved": true,
+      "approved_at": "2025-01-16T10:00:00Z",
+      "approved_by": 2,
+      "uploaded_at": "2025-01-15T11:15:00Z",
+      "updated_at": "2025-01-16T10:00:00Z"
+    }
+  },
+  {
+    "model": "evidence.evidence",
+    "pk": 6,
+    "fields": {
+      "assessment": 1,
+      "question": 3,
+      "user": 5,
+      "title": "Stakeholder Analysis Document",
+      "description": "Analysis of stakeholders and their BC requirements",
+      "file": "evidence/2025/01/stakeholder_analysis.docx",
+      "file_name": "Stakeholder_Analysis_BC_2025.docx",
+      "file_size": 245760,
+      "file_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "is_approved": true,
+      "approved_at": "2025-01-16T10:15:00Z",
+      "approved_by": 2,
+      "uploaded_at": "2025-01-15T11:30:00Z",
+      "updated_at": "2025-01-16T10:15:00Z"
+    }
+  }
+]

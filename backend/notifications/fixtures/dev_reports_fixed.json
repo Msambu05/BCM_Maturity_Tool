@@ -1,0 +1,66 @@
+[
+  {
+    "model": "reports.generatedreport",
+    "pk": 1,
+    "fields": {
+      "report_id": "RPT-2025-001",
+      "title": "Q1 2025 BCM Maturity Assessment Report",
+      "description": "Comprehensive maturity assessment report for IT Department",
+      "report_type": "assessment_summary",
+      "format": "pdf",
+      "parameters": {
+        "assessment_id": 1,
+        "include_evidence": true,
+        "include_scores": true
+      },
+      "file_path": "generated_reports/2025/01/RPT-2025-001.pdf",
+      "file_size": 2097152,
+      "file_url": null,
+      "assessment": 1,
+      "organization": 1,
+      "department": 1,
+      "status": "completed",
+      "generation_time": 15.5,
+      "error_message": null,
+      "requested_by": 5,
+      "generated_by": 2,
+      "generated_at": "2025-01-16T11:00:00Z",
+      "downloaded_at": "2025-01-16T14:30:00Z",
+      "download_count": 2,
+      "expires_at": "2025-07-16T11:00:00Z",
+      "is_archived": false
+    }
+  },
+  {
+    "model": "reports.generatedreport",
+    "pk": 2,
+    "fields": {
+      "report_id": "RPT-2025-002",
+      "title": "Q1 2025 BCM Assessment Summary",
+      "description": "Excel summary of assessment data and scores",
+      "report_type": "assessment_summary",
+      "format": "excel",
+      "parameters": {
+        "assessment_id": 1,
+        "export_format": "xlsx",
+        "include_raw_data": true
+      },
+      "file_path": "generated_reports/2025/01/RPT-2025-002.xlsx",
+      "file_size": 524288,
+      "file_url": null,
+      "assessment": 1,
+      "organization": 1,
+      "department": 1,
+      "status": "completed",
+      "generation_time": 8.2,
+      "error_message": null,
+      "requested_by": 5,
+      "generated_by": 2,
+      "generated_at": "2025-01-16T11:15:00Z",
+      "downloaded_at": "2025-01-16T15:00:00Z",
+      "download_count": 1,
+      "expires_at": "2025-07-16T11:15:00Z",
+      "is_archived": false
+    }
+  }
+]

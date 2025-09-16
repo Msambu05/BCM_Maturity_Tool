@@ -1,0 +1,77 @@
+[
+  {
+    "model": "notifications.notification",
+    "pk": 1,
+    "fields": {
+      "user": 5,
+      "title": "Assessment Due Soon",
+      "message": "Your BCM assessment 'Q1 2025 BCM Maturity Assessment' is due in 7 days. Please complete and submit it.",
+      "notification_type": "assessment_due",
+      "is_read": false,
+      "priority": "medium",
+      "related_assessment": 1,
+      "created_at": "2025-01-24T09:00:00Z",
+      "sent_at": "2025-01-24T09:00:00Z"
+    }
+  },
+  {
+    "model": "notifications.notification",
+    "pk": 2,
+    "fields": {
+      "user": 5,
+      "title": "Assessment Submitted Successfully",
+      "message": "Your assessment 'Q1 2025 BCM Maturity Assessment' has been submitted successfully and is now under review.",
+      "notification_type": "assessment_submitted",
+      "is_read": false,
+      "priority": "low",
+      "related_assessment": 1,
+      "created_at": "2025-01-15T12:00:00Z",
+      "sent_at": "2025-01-15T12:00:00Z"
+    }
+  },
+  {
+    "model": "notifications.notification",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "title": "New Assessment Assigned",
+      "message": "A new assessment 'Q1 2025 Finance BCM Assessment' has been assigned to you for review.",
+      "notification_type": "assessment_assigned",
+      "is_read": true,
+      "priority": "high",
+      "related_assessment": 3,
+      "created_at": "2025-01-20T14:00:00Z",
+      "sent_at": "2025-01-20T14:00:00Z"
+    }
+  },
+  {
+    "model": "notifications.notification",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "title": "Evidence Approved",
+      "message": "Your evidence 'BCMS Policy Document' for assessment 'Q1 2025 BCM Maturity Assessment' has been approved.",
+      "notification_type": "evidence_approved",
+      "is_read": true,
+      "priority": "low",
+      "related_assessment": 1,
+      "created_at": "2025-01-16T09:00:00Z",
+      "sent_at": "2025-01-16T09:00:00Z"
+    }
+  },
+  {
+    "model": "notifications.notification",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "title": "Assessment Overdue",
+      "message": "Assessment 'Q1 2025 Operations BCM Assessment' is now overdue. Please complete it as soon as possible.",
+      "notification_type": "assessment_overdue",
+      "is_read": false,
+      "priority": "high",
+      "related_assessment": 2,
+      "created_at": "2025-04-01T09:00:00Z",
+      "sent_at": "2025-04-01T09:00:00Z"
+    }
+  }
+]

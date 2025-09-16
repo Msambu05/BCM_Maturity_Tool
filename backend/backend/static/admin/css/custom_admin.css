@@ -1,0 +1,49 @@
+
+/* Custom admin styles for better UX */
+.action-checkbox-column {
+    width: 30px;
+}
+
+.actions .button {
+    margin-right: 5px;
+}
+
+.fieldset.collapsed .fieldset-content {
+    display: none;
+}
+
+.fieldset.collapsed .fieldset-heading::before {
+    content: "▶ ";
+}
+
+.fieldset .fieldset-heading::before {
+    content: "▼ ";
+}
+
+/* Better button grouping */
+.actions {
+    padding: 10px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.actions .clear {
+    clear: both;
+}
+
+/* Status indicators */
+.boolean-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.boolean-icon.true {
+    background-color: #28a745;
+}
+
+.boolean-icon.false {
+    background-color: #dc3545;
+}
